@@ -1,0 +1,70 @@
+.divBigNote {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.menuText {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.timerButton {
+    margin: auto;
+    width: 90%;
+    border: 10px solid rgba(0,0,0,0);
+    
+}
+
+#timerButton {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80px;
+}
+
+.radioButtons {
+    margin: auto;
+    text-align: center;
+}
+
+a.bigNote{
+    font-size: 2500%;
+}
+
+@media (max-width: 576px){
+    .divBigNote {
+        background-color: rgb(250, 0, 250, 0);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px){
+    .divBigNote {
+        background-color: rgb(250, 0, 0, 0);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .divBigNote {
+        background-color: rgb(0, 250, 0, 0);
+    }
+    a.bigNote{
+        font-size: 2000%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .divBigNote {
+        background-color: rgb(0, 0, 250, 0);
+    }
+    a.bigNote{
+        font-size: 2000%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .divBigNote {
+        background-color: rgb(250, 250, 0, 0);
+    }
+    a.bigNote{
+        font-size: 2000%;
+    }
+}
+

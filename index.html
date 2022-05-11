@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8"/>
+    <title>Random Note Picker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <div class="divBigNote">
+        <a class="bigNote" id="currentNote">A</a>
+    </div>
+    <div class="timerButton">
+        <input type='button' id='timerButton' onclick='startTimer()' value='Start Timer'><br> 
+    </div>
+    <div class="radioButtons">    
+        <input type='radio' name='radioButton' onchange='changeHandler(this)' value='1' checked>Use Seconds<br>
+        <input type='radio' name='radioButton' onchange='changeHandler(this)' value='2' >Use Metronome<br>
+    </div>
+    <div class="menuText">
+        <input type='double' id="menuText" name='delay' placeholder='Time in seconds.'>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>
+
+ 
