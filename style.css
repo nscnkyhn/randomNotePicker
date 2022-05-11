@@ -13,8 +13,7 @@
 .timerButton {
     margin: auto;
     width: 90%;
-    border: 10px solid rgba(0,0,0,0);
-    
+    border: 10px solid rgba(0,0,0,0);  
 }
 
 #timerButton {
@@ -30,7 +29,7 @@
 }
 
 a.bigNote{
-    font-size: 5500%;
+    font-size: 2500%;
 }
 
 @media (max-width: 576px){
