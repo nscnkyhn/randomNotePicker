@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Note Picker</title>
+    <meta charset = "utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="divBigNote">
+        <a class="bigNote" id="currentNote">A</a>
+    </div>
+    <div class="timerButton">
+        <input type='double' id="menuText" name='delay' placeholder='Time in seconds.' autofocus>
+        <input type='button' id='timerButton' onclick='startTimer()' value='Start Timer'>
+    </div>
+    <div>
+        <p id="alertText"></p>
+    </div>
+    <div class="buttons">
+        <div class="radioButtons">
+            Use Seconds<input type='radio' name='radioButton' onchange='changeHandler(this)' value='1' checked><br>
+            Use Metronome<input type='radio' name='radioButton' onchange='changeHandler(this)' value='2'>
+        </div>
+        <div class="noteSelector">
+            <input class="checkBox" type="checkBox" id="naturalCheckBox" onchange='stop()' checked>Include Natural Notes<br>
+            <input class="checkBox" type="checkBox" id="sharpCheckBox" onchange='stop()'>Include Sharp (#) Notes<br>
+            <input class="checkBox" type="checkBox" id="flatCheckBox" onchange='stop()'>Include Flat (b) Notes
+        </div>
+    </div>
+
+</body>
+<script src="javascript.js"></script>
+</html>
+
+ 
