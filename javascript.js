@@ -88,7 +88,7 @@ function changeHandler(src){
 
 
 document.addEventListener("keypress", function(event) {
-    if (event.keyCode == 13) {
+    if (event.keyCode == 13 || event.keyCode ==32) {
         startTimer();
     }
 });
